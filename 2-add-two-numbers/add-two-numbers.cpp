@@ -34,6 +34,7 @@ current2=current2->next;
     else{
 b=0;    }
 sum=a+b+carry;
+
 digit=sum%10;
 carry=sum/10;
 
